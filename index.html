@@ -8,32 +8,35 @@
 </head>
 <body>
   <div class="calculator">
-    <div class="display">0</div>
+    <div id="display" class="display">
+      <h4 id="h">0</h4> 
+    </div>
     <div class="buttons">
-      <button>C</button>
-      <button>←</button>
-      <button>%</button>
-      <button>/</button>
+      <button id="l" onclick="flick10()">C</button>
+      <button id="m" onclick="flick11()">←</button>
+      <button id="n" onclick="flick12()">%</button>
+      <button id="o" onclick="flick13()">/</button>
 
-      <button>7</button>
-      <button>8</button>
-      <button>9</button>
-      <button>*</button>
+      <button id="a" onclick="flick()">7</button>
+      <button id="b" onclick="flick1()">8</button>
+      <button id="c" onclick="flick2()">9</button>
+      <button id="t" onclick="flick17()">*</button>
 
-      <button>4</button>
-      <button>5</button>
-      <button>6</button>
-      <button>-</button>
+      <button id="d" onclick="flick3()">4</button>
+      <button id="e" onclick="flick4()">5</button>
+      <button id="f" onclick="flick5()">6</button>
+      <button id="p" onclick="flick14()">-</button>
 
-      <button>1</button>
-      <button>2</button>
-      <button>3</button>
-      <button>+</button>
+      <button id="g" onclick="flick6()">1</button>
+      <button id="i" onclick="flick7()">2</button>
+      <button id="j" onclick="flick8()">3</button>
+      <button id="q" onclick="flick18()">+</button>
 
-      <button>0</button>
-      <button>.</button>
-      <button class="equal">=</button>
+      <button id="k" onclick="flick9()">0</button>
+      <button id="r" onclick="flick15()">.</button>
+      <button class="equal" id="s" onclick="flick16()">=</button>
     </div>
   </div>
+  <script src="./index.js"></script>
 </body>
 </html>
