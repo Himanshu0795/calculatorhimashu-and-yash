@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #f3f3f3;
+  background: #ca4f4f;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,9 +17,11 @@ body {
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   width: 320px;
+  height: 620px;
+  position: fixed;
 }
 
-.display {
+.display1 {
   background: #1e1e1e;
   color: white;
   text-align: right;
@@ -27,6 +29,13 @@ body {
   font-size: 2rem;
   border-radius: 10px;
   margin-bottom: 20px;
+  height: 176px;
+  width: 279px;
+  
+}
+.display1 h4{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .buttons {
